@@ -15,3 +15,8 @@ Class notes:
     - object
         - Array
     function
+
+#CLASS 06
+- Working with variables
+- Working with strings: toUpperCase, toLowerCase, length
+- ToLocaleString

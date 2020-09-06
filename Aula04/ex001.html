@@ -16,11 +16,18 @@
     <h1>Hello World!!</h1>
     <P>My HTML code</P>
     <script>
-        var n1 = 5
-        var n2 = "My string variable"
-        window.alert('My alert message!!')
-        window.confirm('How are you?')
-        window.prompt('What\'s your name?')
+        //var name = window.prompt('What\'s your name?')
+        //window.alert(`Welcome ` + name + `!`)
+
+        var number1 = window.prompt('Type a number: ')
+        var number2 = window.prompt('Type another number: ')
+        number1 = Number(number1)
+        number2 = Number(number2)
+        var sum = number1 + number2
+        window.alert(`Sum:  ${sum}`)
+        window.alert('Diff: ' + (number1 - number2))
+        window.alert('Product: ' + number1 * number2)
+        window.alert('Quot: ' + number1 / number2)
     </script>
 </body>
 </html>
